@@ -64,10 +64,6 @@ body{
 /* Goal: padding between end of viewport & start of card */
 @media screen and (max-width: 600px) {
 
-    body{
-        background-color: lightgreen;
-    }
-
     .card-body{
         height: 500px;
         width: 300px;
