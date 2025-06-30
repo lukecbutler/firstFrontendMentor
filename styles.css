@@ -65,8 +65,7 @@ body{
 @media screen and (max-width: 600px) {
 
     body{
-        overflow-y: auto;
-        overflow: scroll;
+        padding-bottom: 5vh;
     }
 
     .card-body{
