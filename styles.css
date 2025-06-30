@@ -64,6 +64,11 @@ body{
 /* Goal: padding between end of viewport & start of card */
 @media screen and (max-width: 600px) {
 
+    body{
+        overflow-y: auto;
+        overflow: scroll;
+    }
+
     .card-body{
         height: 500px;
         width: 300px;
